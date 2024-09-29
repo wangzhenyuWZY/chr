@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Pingfang';
+  src: url(../src/assets/fonts/PingFangSC-Regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Pingfang';
+  font-weight: 200;
+  src: url(../src/assets/fonts/PingFangSC-Light.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Pingfang';
+  font-weight: 500;
+  src: url(../src/assets/fonts/PingFangSC-Medium.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Pingfang';
+  font-weight: 600;
+  src: url(../src/assets/fonts/PingFangSC-Semibold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../src/assets/fonts/Montserrat-VariableFont_wght.ttf)
+    format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(../src/assets/fonts/Inter.ttf) format('truetype');
+}
+
+html,
+body,
+a,
+div,
+p,
+span,
+input,
+h2,
+h3,
+h4,
+h5 {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter';
+  font-weight: 200;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+html,
+body {
+  min-height: 100vh;
+  font-family: 'Inter' !important;
+  overflow-x: hidden;
+}
+body {
+  background: #000 url(./assets/images/bg.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+:root {
+  --van-background-2: #031d40;
+  --van-cell-background: #031d40 !important;
+  --van-field-input-text-color: #000 !important;
+  --van-dropdown-menu-background: #031d40 !important;
+  --van-dropdown-menu-title-text-color: #fff !important;
+  --van-cell-text-color: #fff !important;
+  --van-tabbar-background: #101313 !important;
+  --van-tabbar-item-active-background: #141716 !important;
+  --van-tabbar-item-icon-size: 24px !important;
+  --van-tabbar-item-icon-margin-bottom: 0 !important;
+  --van-toast-text-color: #fff803 !important;
+}
